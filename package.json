@@ -1,0 +1,27 @@
+{
+  "name": "google-news-feed-aggregator",
+  "version": "1.0.0",
+  "description": "Feed aggregator for Google News",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js lib/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "idealwebsolutions",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "feedparser": "^2.2.9",
+    "modern-random-ua": "^1.0.3",
+    "simple-get": "^2.7.0",
+    "strftime": "^0.10.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "standard": "^11.0.1"
+  }
+}
